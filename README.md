@@ -12,8 +12,8 @@
 ```
 brew install --cask alacritty
 ```
-
-### Install and COnfigure zsh and oh-my-zsh
+<summary><h3>zsh & oh-my-zsh </h3></summary>
+### Install and Configure zsh and oh-my-zsh
 
 ```
 brew install zsh
