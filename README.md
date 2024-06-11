@@ -33,10 +33,10 @@ chsh -s /opt/homebrew/bin/zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 <details>
-  <summary><h3>Spaceship Prompt</h3><summary>
+  <summary><h3>Spaceship Prompt</h3></summary>
     
 - Install the spaceship theme
-- 
+  
 ```
 brew install spaceship  
 ```
