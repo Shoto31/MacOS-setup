@@ -68,3 +68,22 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
 source ~/.zshrc
 ```
 </details>
+
+## Terminal app that I use
+##### fzf (Command-line fuzzy finder written in Go)
+
+```
+brew install fzf
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
+```
+##### eza (a replacement for ls)
+```
+brew install eza
+```
+##### zoxide (a better replacement for cd)
+```
+brew install zoxide
+# Then add the following to the end of your .zshrc file
+eval "$(zoxide init zsh)"
+```
