@@ -49,15 +49,20 @@ echo "source $(brew --prefix)/opt/spaceship/spaceship.zsh" >>! ~/.zshrc
 
 </details>
 
-- Plugins that I use
+<details>
+<summary><h3>Plugins</h3></summary>
+  
+ ###### zsh-autosuggestions && zsh-syntax-highlighting
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
-- After this simply add the following to you "~/.zshrc" file
+##### After this simply add the following to you "~/.zshrc" file
 ```
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
 ```
+</details>
+
 ### Then run in your terminal
 ```
 source ~/.zshrc
