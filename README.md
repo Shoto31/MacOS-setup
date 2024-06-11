@@ -32,7 +32,8 @@ chsh -s /opt/homebrew/bin/zsh
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
-
+<details>
+  <summary><h3>Spaceship Prompt</h3><summary>
 - Install the spaceship theme
 ```
 brew install spaceship  
@@ -41,6 +42,8 @@ brew install spaceship
 ```
 echo "source $(brew --prefix)/opt/spaceship/spaceship.zsh" >>! ~/.zshrc
 ```
+  </details>
+
 - Plugins that I use
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
