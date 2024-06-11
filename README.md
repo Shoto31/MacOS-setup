@@ -14,19 +14,25 @@ brew install --cask alacritty
 ```
 <details>
 <summary><h3>Shell</h3></summary>
+  
 ### Install and Configure zsh and oh-my-zsh
+
 ```
 brew install zsh
 ```
+
 ### Set zsh as the default shell
+
 ```
 chsh -s /opt/homebrew/bin/zsh
 ```
+
 ### Now to install oh-my-zsh (themes)
 
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+
 ### Install the spaceship theme
 ```
 brew install spaceship  
