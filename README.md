@@ -34,15 +34,20 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ```
 <details>
   <summary><h3>Spaceship Prompt</h3><summary>
+    
 - Install the spaceship theme
+- 
 ```
 brew install spaceship  
 ```
+
 - Add prompt initialization to your .zshrc
+ 
 ```
 echo "source $(brew --prefix)/opt/spaceship/spaceship.zsh" >>! ~/.zshrc
 ```
-  </details>
+
+</details>
 
 - Plugins that I use
 ```
